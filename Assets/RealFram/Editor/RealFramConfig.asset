@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac915bf0f54d314f9dbd81416eb464d, type: 3}
+  m_Name: RealFramConfig
+  m_EditorClassIdentifier: 
+  m_ABBytePath: Assets/GameData/Data/ABData/AssetBundleConfig.bytes
+  m_XmlPath: Assets/GameData/Data/Xml/
+  m_BinaryPath: Assets/GameData/Data/Binary/
+  m_ScriptsPath: Assets/Scripts/Data/

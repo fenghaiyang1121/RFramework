@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AssetBundleConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ABList Path="Assets/GameData/Prefabs/Attack.prefab" Crc="192126642" ABName="attack" AssetName="Attack.prefab">
+    <ABDependce>shader</ABDependce>
+  </ABList>
+  <ABList Path="Assets/GameData/Data/Binary/BuffData.bytes" Crc="697814829" ABName="bytes" AssetName="BuffData.bytes" />
+  <ABList Path="Assets/GameData/Data/Binary/MonsterData.bytes" Crc="1289056854" ABName="bytes" AssetName="MonsterData.bytes" />
+  <ABList Path="Assets/GameData/Prefabs/UGUI/Panel/LoadingPanel.prefab" Crc="968375833" ABName="loadingpanel" AssetName="LoadingPanel.prefab" />
+  <ABList Path="Assets/GameData/Prefabs/UGUI/Panel/MenuPanel.prefab" Crc="2681775694" ABName="menupanel" AssetName="MenuPanel.prefab" />
+  <ABList Path="Assets/GameData/Prefabs/Effect/ParticleTest1.prefab" Crc="2774616854" ABName="particletest1" AssetName="ParticleTest1.prefab" />
+  <ABList Path="Assets/GameData/Shaders/benghuai.shader" Crc="2153760648" ABName="shader" AssetName="benghuai.shader" />
+  <ABList Path="Assets/GameData/Shaders/Skybox.shader" Crc="2040549738" ABName="shader" AssetName="Skybox.shader" />
+  <ABList Path="Assets/GameData/Shaders/Water.shader" Crc="3794094069" ABName="shader" AssetName="Water.shader" />
+  <ABList Path="Assets/GameData/Shaders/Xray.shader" Crc="2720758644" ABName="shader" AssetName="Xray.shader" />
+  <ABList Path="Assets/GameData/Sounds/menusound.mp3" Crc="1701716301" ABName="sound" AssetName="menusound.mp3" />
+  <ABList Path="Assets/GameData/Sounds/senlin.mp3" Crc="662225670" ABName="sound" AssetName="senlin.mp3" />
+  <ABList Path="Assets/GameData/Prefabs/UGUI/TestUI1.prefab" Crc="278141864" ABName="testui1" AssetName="TestUI1.prefab" />
+  <ABList Path="Assets/GameData/Prefabs/UGUI/TestUI2.prefab" Crc="2652576843" ABName="testui2" AssetName="TestUI2.prefab" />
+  <ABList Path="Assets/GameData/UGUI/Test1.png" Crc="3547477655" ABName="ugui" AssetName="Test1.png" />
+  <ABList Path="Assets/GameData/UGUI/test2.png" Crc="371445476" ABName="ugui" AssetName="test2.png" />
+  <ABList Path="Assets/GameData/UGUI/test3.png" Crc="725870420" ABName="ugui" AssetName="test3.png" />
+</AssetBundleConfig>
