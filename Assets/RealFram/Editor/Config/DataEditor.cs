@@ -13,7 +13,6 @@ public class DataEditor
 {
     public static string XmlPath = RealConfig.GetRealFram().m_XmlPath;
     public static string BinaryPath = RealConfig.GetRealFram().m_BinaryPath;
-    public static string ScriptsPath = RealConfig.GetRealFram().m_ScriptsPath;
     public static string ExcelPath = Application.dataPath + "/../Data/Excel/";
     public static string RegPath = Application.dataPath + "/../Data/Reg/";
 

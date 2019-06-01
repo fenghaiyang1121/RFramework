@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: ABConfig
   m_EditorClassIdentifier: 
   m_AllPrefabPath: []
-  m_AllFileDirAB: []
+  m_AllFileDirAB:
+  - ABName: data
+    Path: Asset/RealFram/Data/Binary

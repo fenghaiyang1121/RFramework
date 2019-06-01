@@ -11,8 +11,6 @@ public class RealFramConfig : ScriptableObject
     public string m_XmlPath;
     //二进制文件夹路径
     public string m_BinaryPath;
-    //脚本文件夹路径
-    public string m_ScriptsPath;
 }
 
 [CustomEditor(typeof(RealFramConfig))]
@@ -21,14 +19,12 @@ public class RealFramConfigInspector : Editor
     public SerializedProperty m_ABBytePath;
     public SerializedProperty m_XmlPath;
     public SerializedProperty m_BinaryPath;
-    public SerializedProperty m_ScriptsPath;
 
     private void OnEnable()
     {
         m_ABBytePath = serializedObject.FindProperty("m_ABBytePath");
         m_XmlPath = serializedObject.FindProperty("m_XmlPath");
         m_BinaryPath = serializedObject.FindProperty("m_BinaryPath");
-        m_ScriptsPath = serializedObject.FindProperty("m_BinaryPath");
     }
 
     public override void OnInspectorGUI()
@@ -39,8 +35,6 @@ public class RealFramConfigInspector : Editor
         EditorGUILayout.PropertyField(m_XmlPath, new GUIContent("Xml路径"));
         GUILayout.Space(5);
         EditorGUILayout.PropertyField(m_BinaryPath, new GUIContent("二进制路径"));
-        GUILayout.Space(5);
-        EditorGUILayout.PropertyField(m_ScriptsPath, new GUIContent("配置表脚本路径"));
         GUILayout.Space(5);
         serializedObject.ApplyModifiedProperties();
     }

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuffData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AllBuffList Id="1" Name="全BUFF0" OutLook="Assets/GameData/...0" Time="7.908716" BuffType="Ranshao">
+    <AllString>ceshi0</AllString>
+    <AllString>ceshiq0</AllString>
+    <AllBuffList Id="4" Name="name0" />
+    <AllBuffList Id="1" Name="name1" />
+  </AllBuffList>
+  <AllBuffList Id="2" Name="全BUFF1" OutLook="Assets/GameData/...1" Time="9.651083" BuffType="None">
+    <AllString>ceshi1</AllString>
+    <AllString>ceshiq1</AllString>
+    <AllBuffList Id="3" Name="name0" />
+    <AllBuffList Id="4" Name="name1" />
+    <AllBuffList Id="3" Name="name2" />
+  </AllBuffList>
+  <AllBuffList Id="3" Name="全BUFF2" OutLook="Assets/GameData/...2" Time="2.890748" BuffType="Ranshao">
+    <AllString>ceshi2</AllString>
+    <AllString>ceshiq2</AllString>
+  </AllBuffList>
+  <AllBuffList Id="4" Name="全BUFF3" OutLook="Assets/GameData/...3" Time="6.486438" BuffType="Ranshao">
+    <AllString>ceshi3</AllString>
+    <AllString>ceshiq3</AllString>
+    <AllBuffList Id="1" Name="name0" />
+    <AllBuffList Id="3" Name="name1" />
+    <AllBuffList Id="4" Name="name2" />
+  </AllBuffList>
+  <AllBuffList Id="5" Name="全BUFF4" OutLook="Assets/GameData/...4" Time="9.840532" BuffType="Ranshao">
+    <AllString>ceshi4</AllString>
+    <AllString>ceshiq4</AllString>
+    <AllBuffList Id="0" Name="name0" />
+  </AllBuffList>
+  <AllBuffList Id="6" Name="全BUFF5" OutLook="Assets/GameData/...5" Time="9.636527" BuffType="Ranshao">
+    <AllString>ceshi5</AllString>
+    <AllString>ceshiq5</AllString>
+    <AllBuffList Id="2" Name="name0" />
+    <AllBuffList Id="1" Name="name1" />
+    <AllBuffList Id="2" Name="name2" />
+  </AllBuffList>
+  <AllBuffList Id="7" Name="全BUFF6" OutLook="Assets/GameData/...6" Time="7.294123" BuffType="Bingdong">
+    <AllString>ceshi6</AllString>
+    <AllString>ceshiq6</AllString>
+    <AllBuffList Id="1" Name="name0" />
+    <AllBuffList Id="4" Name="name1" />
+    <AllBuffList Id="2" Name="name2" />
+  </AllBuffList>
+  <AllBuffList Id="8" Name="全BUFF7" OutLook="Assets/GameData/...7" Time="3.188851" BuffType="Du">
+    <AllString>ceshi7</AllString>
+    <AllString>ceshiq7</AllString>
+    <AllBuffList Id="1" Name="name0" />
+  </AllBuffList>
+  <AllBuffList Id="9" Name="全BUFF8" OutLook="Assets/GameData/...8" Time="1.958523" BuffType="Du">
+    <AllString>ceshi8</AllString>
+    <AllString>ceshiq8</AllString>
+    <AllBuffList Id="4" Name="name0" />
+    <AllBuffList Id="2" Name="name1" />
+  </AllBuffList>
+  <AllBuffList Id="10" Name="全BUFF9" OutLook="Assets/GameData/...9" Time="4.848787" BuffType="Du">
+    <AllString>ceshi9</AllString>
+    <AllString>ceshiq9</AllString>
+    <AllBuffList Id="2" Name="name0" />
+    <AllBuffList Id="5" Name="name1" />
+    <AllBuffList Id="6" Name="name2" />
+  </AllBuffList>
+  <MonsterBuffList Id="1" Name="全BUFF0" OutLook="Assets/GameData/...0" Time="1.492714" BuffType="Du">
+    <AllString>ceshi0</AllString>
+    <AllBuffList Id="4" Name="name0" />
+    <AllBuffList Id="1" Name="name1" />
+    <AllBuffList Id="6" Name="name2" />
+  </MonsterBuffList>
+  <MonsterBuffList Id="2" Name="全BUFF1" OutLook="Assets/GameData/...1" Time="1.718758" BuffType="Bingdong">
+    <AllString>ceshi1</AllString>
+  </MonsterBuffList>
+  <MonsterBuffList Id="3" Name="全BUFF2" OutLook="Assets/GameData/...2" Time="6.511486" BuffType="Ranshao">
+    <AllString>ceshi2</AllString>
+    <AllBuffList Id="2" Name="name0" />
+  </MonsterBuffList>
+  <MonsterBuffList Id="4" Name="全BUFF3" OutLook="Assets/GameData/...3" Time="1.000356" BuffType="Bingdong">
+    <AllString>ceshi3</AllString>
+    <AllBuffList Id="0" Name="name0" />
+    <AllBuffList Id="1" Name="name1" />
+    <AllBuffList Id="2" Name="name2" />
+  </MonsterBuffList>
+  <MonsterBuffList Id="5" Name="全BUFF4" OutLook="Assets/GameData/...4" Time="2.168871" BuffType="None">
+    <AllString>ceshi4</AllString>
+    <AllBuffList Id="0" Name="name0" />
+    <AllBuffList Id="3" Name="name1" />
+    <AllBuffList Id="2" Name="name2" />
+  </MonsterBuffList>
+</BuffData>
