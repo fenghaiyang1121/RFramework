@@ -2,15 +2,18 @@
 Unity的资源加载框架
 
 使用方式：
+
 1，将RealFram/FramePlug/RFramework 拖到自己游戏的初始场景
 
 2，ab包配置方式：(主要分为两种配置方式)
+
    打开RealFram/Edtior/Resource/ABConfig（分别为AllPrefabPath与AllFileDirAB）
    AllPrefabPath为prefab文件夹路径，可以设置多个，最终编辑器会去根据文件夹查找里面所有的Prefab去计算依赖打包（注意不要出现同名Prefab，因为每个prefab会单独根据prefab名字打包ab包）
    AllFileDirAB为单个文件夹ab包设置，设置的时候需要设置ab包名与ab包对应文件夹路径（如：data  Asset/RealFram/Data/Binary）
    设置好之后打包就会根据设置自动筛选及自动设定ab包，进行打包，默认打包在Assets同目录根据不同平台所生成的文件夹下面（不会生成在Asset目录里面，打包apk等时，工具会根据平台自动拷贝ab包到StreamingAssets目录，如果热更或者初始包问题可自行更改代码 BuildApp  与   BundleEditor）。
    
 3，资源加载代码使用：
+
   1）同步资源加载：
   
   ResourceManager.Instance.LoadResource<T>(path)  泛型方法，path为资源的Unity工程相对路径，如： Assets/Data/image.png;。此方法加载不需要实例化的资源，如图片，asset,音频等资源文件。
