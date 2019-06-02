@@ -15,14 +15,14 @@
 ### 3，资源加载代码使用：
 
   #### 1）同步资源加载：
-  	```
-  	ResourceManager.Instance.LoadResource<T>(path)  
- 	```
-   泛型方法，path为资源的Unity工程相对路径，如： Assets/Data/image.png;。此方法加载不需要实例化的资源，如图片，asset,音频等资源文件。
-	```
- 	示例：
-	TextAsset text = ResourceManager.Instance.LoadResource<TextAsset>(MAINLUAPATH);
-	```
+  ```
+  ResourceManager.Instance.LoadResource<T>(path)  
+  ```
+  泛型方法，path为资源的Unity工程相对路径，如： Assets/Data/image.png;。此方法加载不需要实例化的资源，如图片，asset,音频等资源文件。
+  ```
+  示例：
+  TextAsset text = ResourceManager.Instance.LoadResource<TextAsset>(MAINLUAPATH);
+  ```
 	
   #### 2）异步资源加载：
   ```
