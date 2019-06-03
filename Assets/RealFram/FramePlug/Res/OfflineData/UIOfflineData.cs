@@ -14,7 +14,7 @@ public class UIOfflineData : OfflineData
     public override void ResetProp()
     {
         int allPointCount = m_AllPoint.Length;
-        for (int i = 0; i > allPointCount; i++)
+        for (int i = 0; i < allPointCount; i++)
         {
             RectTransform tempTrs = m_AllPoint[i] as RectTransform;
             if (tempTrs != null)
