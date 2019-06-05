@@ -55,9 +55,11 @@ public class BundleEditor
                 GameObject obj = AssetDatabase.LoadAssetAtPath<GameObject>(path);
                 string[] allDepend = AssetDatabase.GetDependencies(path);
                 List<string> allDependPath = new List<string>();
+                m_AllFileAB.Add(path);
+                allDependPath.Add(path);
                 for (int j = 0; j < allDepend.Length; j++)
                 {
-                    if (!ContainAllFileAB(allDepend[j]) && !allDepend[j].EndsWith(".cs"))
+                    if (!ContainAllFileAB(allDepend[j]) && !allDepend[j].EndsWith(".cs") && !allDepend[j].EndsWith(".prefab"))
                     {
                         m_AllFileAB.Add(allDepend[j]);
                         allDependPath.Add(allDepend[j]);

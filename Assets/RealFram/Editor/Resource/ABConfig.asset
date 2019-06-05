@@ -15,4 +15,4 @@ MonoBehaviour:
   m_AllPrefabPath: []
   m_AllFileDirAB:
   - ABName: data
-    Path: Asset/RealFram/Data/Binary
+    Path: Assets/RealFram/Data/Binary
