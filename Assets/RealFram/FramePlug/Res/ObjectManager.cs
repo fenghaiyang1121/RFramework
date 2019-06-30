@@ -292,6 +292,7 @@ public class ObjectManager : Singleton<ObjectManager>
         resObj.m_Param1 = param1;
         resObj.m_Param2 = param2;
         resObj.m_Param3 = param3;
+        m_AsyncResObjs.Add(guid, resObj);
         //调用ResouceManager的异步加载接口
         ResourceManager.Instance.AsyncLoadResource(path, resObj, OnLoadResouceObjFinish, priority);
         return guid;
