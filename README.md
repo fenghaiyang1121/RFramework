@@ -153,6 +153,29 @@
   #### 10）数据资源加载转换
   此框架包含了数据资源加载及转换， 类<-> xml<->二进制<->excel,都可以互转，可以去查看DataEditor脚本。编辑器工具也有右键转换xml,二进制等功能。xml与excel的转换基于reg文件，在Assets同级目录的Data目录中，有BuffData的xml-excel配置例子。在工程目录中RealFram/DemoData中有BuffData类的例子，可供参看。
   
-  
-  
+  #### 11）Unity2017之后新图集加载方式
+  在ResourceManager中加入一个新的方法，用来加载新图集，主要是将图片路径进行拆分计算出图集路径以及图片名称，然后加载图集后使用图片名称加载图片
+    /// <summary>
+    /// 新图集加载方法
+    /// </summary>
+    /// <param name="path"></param>
+    /// <returns></returns>
+    public Sprite LoadSpriteBySpriteAtlas(string path)
+    {
+        string spriteName = path.Remove(0, path.LastIndexOf('/') + 1);
+        spriteName = spriteName.Remove(spriteName.LastIndexOf('.'));
+        string filePath = path.Remove(path.LastIndexOf('/'));
+        string spriteAtlasName = filePath.Remove(0, filePath.LastIndexOf('/') + 1);
+        string spriteAtlasPath = string.Format("{0}/{1}.spriteatlas", filePath, spriteAtlasName);
+        SpriteAtlas spriteAtlas = LoadResource<SpriteAtlas>(spriteAtlasPath);
+        if (spriteAtlas == null)
+        {
+            Debug.LogError("不存在该图集：" + spriteAtlasPath);
+            return null;
+        }
+        else 
+        {
+            return spriteAtlas.GetSprite(spriteName);
+        }
+    }
    
