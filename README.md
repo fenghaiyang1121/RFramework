@@ -155,6 +155,7 @@
   
   #### 11）Unity2017之后新图集加载方式
   在ResourceManager中加入一个新的方法，用来加载新图集，主要是将图片路径进行拆分计算出图集路径以及图片名称，然后加载图集后使用图片名称加载图片
+  ```
     /// <summary>
     /// 新图集加载方法
     /// </summary>
@@ -178,4 +179,5 @@
             return spriteAtlas.GetSprite(spriteName);
         }
     }
+    ```
    
